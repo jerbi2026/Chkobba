@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chkoba</title>
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style_home.css">
+</head>
+<body>
+   
+   
+    <h1 class="fancy">Welcome to chkoba</h1>
+    <section id="home">
+        <div id="buttons">
+            <button onclick="go_niveau()" class="button">Jouer Contre le robot</button>
+            <button class="button" onclick="go_jeu_robot_hard()()">Jouer Contre votre ami</button>
+            <button onclick="go_setting()" class="button">Settings</button>
+        </div>
+        
+    </section>
+    <div class="dialog-box bg-white" id="dialog">
+        <h2>En cours de traitement🦺🔨...</h2>
+        <button aria-label="close" class="x" onclick="close_dialog()">❌</button>
+    </div>
+    <script src="js/home.js"></script>
+    <script src="js/audio.js"></script>
+
+
+</body>
+</html>
